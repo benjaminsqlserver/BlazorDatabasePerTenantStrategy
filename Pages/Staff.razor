@@ -1,0 +1,54 @@
+@page "/staff"
+@attribute [Authorize]
+
+<PageTitle>Staff</PageTitle>
+<RadzenStack>
+<RadzenRow AlignItems="AlignItems.Center">
+    <RadzenColumn Size="12" SizeMD="6">
+        <RadzenText Text="Staff" TextStyle="TextStyle.H3" TagName="TagName.H1" style="margin: 0" />
+    </RadzenColumn>
+    <RadzenColumn Size="12" SizeMD="6">
+        <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.End" Gap="0.5rem">
+            <RadzenSplitButton Icon="get_app" Text="Export" Click="@ExportClick" Variant="Variant.Flat" Shade="Shade.Lighter">
+                <RadzenSplitButtonItem Text="Excel" Value="xlsx" />
+                <RadzenSplitButtonItem Text="CSV" Value="csv" />
+            </RadzenSplitButton>
+            <RadzenButton Icon="add_circle_outline" Text="Add" Click="@AddButtonClick" Variant="Variant.Flat" />
+        </RadzenStack>
+    </RadzenColumn>
+</RadzenRow>
+<RadzenTextBox Placeholder="Search ..." style="display: block; width: 100%" @oninput="@Search" />
+<RadzenRow>
+    <RadzenColumn SizeMD=12>
+        <RadzenDataGrid @ref="grid0" ColumnWidth="200px"  AllowFiltering="true" FilterMode="FilterMode.Advanced" AllowPaging="true" AllowSorting="true" ShowPagingSummary="true" PageSizeOptions=@(new int[]{5, 10, 20, 30})
+            Data="@staff"    TItem="BikeStores.Models.ConData.Staff" RowDoubleClick="@EditRow" >
+            <Columns>
+                <RadzenDataGridColumn TItem="BikeStores.Models.ConData.Staff" Property="staff_id" Title="staffid">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="BikeStores.Models.ConData.Staff" Property="first_name" Title="firstname">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="BikeStores.Models.ConData.Staff" Property="last_name" Title="lastname">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="BikeStores.Models.ConData.Staff" Property="email" Title="email">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="BikeStores.Models.ConData.Staff" Property="phone" Title="phone">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="BikeStores.Models.ConData.Staff" Property="active" Title="active">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="BikeStores.Models.ConData.Staff" Property="Staff1.first_name" Title="Staff1">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="BikeStores.Models.ConData.Staff" Property="Store.store_name" Title="Store">
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="BikeStores.Models.ConData.Staff" Filterable="false" Sortable="false" Width="70px" TextAlign="TextAlign.Center">
+                    <Template Context="staff">
+
+                        <RadzenButton ButtonStyle="ButtonStyle.Danger" Icon="delete" Size="ButtonSize.Medium"
+                            Shade="Shade.Lighter" Variant="Variant.Flat"
+                            Click=@(args => GridDeleteButtonClick(args, staff)) @onclick:stopPropagation="true" />
+                    </Template>
+                </RadzenDataGridColumn>
+            </Columns>
+        </RadzenDataGrid>
+    </RadzenColumn>
+</RadzenRow>
+</RadzenStack>

@@ -1,0 +1,193 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BikeStores
+build_property.RootNamespace = BikeStores
+build_property.ProjectDir = C:\Bikestores\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Bikestores
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/BikeStores/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/AddApplicationRole.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkQXBwbGljYXRpb25Sb2xlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/AddApplicationUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkQXBwbGljYXRpb25Vc2VyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/AddBrand.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkQnJhbmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/AddCategory.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkQ2F0ZWdvcnkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/AddCustomer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkQ3VzdG9tZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/AddOrder.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkT3JkZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/AddOrderItem.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkT3JkZXJJdGVtLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/AddProduct.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkUHJvZHVjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/AddStaff.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkU3RhZmYucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/AddStock.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkU3RvY2sucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/AddStore.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkU3RvcmUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/ApplicationRoles.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwbGljYXRpb25Sb2xlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/ApplicationUsers.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwbGljYXRpb25Vc2Vycy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/Brands.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnJhbmRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/Categories.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/Customers.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/EditApplicationUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEFwcGxpY2F0aW9uVXNlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/EditBrand.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEJyYW5kLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/EditCategory.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdENhdGVnb3J5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/EditCustomer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEN1c3RvbWVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/EditOrder.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdE9yZGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/EditOrderItem.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdE9yZGVySXRlbS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/EditProduct.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFByb2R1Y3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/EditStaff.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFN0YWZmLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/EditStock.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFN0b2NrLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/EditStore.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFN0b3JlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/OrderItems.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJJdGVtcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/Orders.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/Products.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/Profile.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/RegisterApplicationUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXJBcHBsaWNhdGlvblVzZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/ResetPassword.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzZXRQYXNzd29yZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/Staff.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhZmYucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/Stocks.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RvY2tzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/Stores.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RvcmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/Unauthorized.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVW5hdXRob3JpemVkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Shared/LoginLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Shared/RedirectToLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFJlZGlyZWN0VG9Mb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/BikeStores/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

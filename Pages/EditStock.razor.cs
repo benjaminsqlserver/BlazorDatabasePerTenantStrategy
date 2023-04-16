@@ -1,0 +1,93 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.JSInterop;
+using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components.Web;
+using Radzen;
+using Radzen.Blazor;
+
+namespace BikeStores.Pages
+{
+    public partial class EditStock
+    {
+        [Inject]
+        protected IJSRuntime JSRuntime { get; set; }
+
+        [Inject]
+        protected NavigationManager NavigationManager { get; set; }
+
+        [Inject]
+        protected DialogService DialogService { get; set; }
+
+        [Inject]
+        protected TooltipService TooltipService { get; set; }
+
+        [Inject]
+        protected ContextMenuService ContextMenuService { get; set; }
+
+        [Inject]
+        protected NotificationService NotificationService { get; set; }
+        [Inject]
+        public ConDataService ConDataService { get; set; }
+
+        [Parameter]
+        public int store_id { get; set; }
+
+        [Parameter]
+        public int product_id { get; set; }
+
+        protected override async Task OnInitializedAsync()
+        {
+            stock = await ConDataService.GetStockByStoreIdAndProductId(store_id, product_id);
+
+            productsForproductId = await ConDataService.GetProducts();
+
+            storesForstoreId = await ConDataService.GetStores();
+        }
+        protected bool errorVisible;
+        protected BikeStores.Models.ConData.Stock stock;
+
+        protected IEnumerable<BikeStores.Models.ConData.Product> productsForproductId;
+
+        protected IEnumerable<BikeStores.Models.ConData.Store> storesForstoreId;
+
+        protected async Task FormSubmit()
+        {
+            try
+            {
+                await ConDataService.UpdateStock(store_id, product_id, stock);
+                DialogService.Close(stock);
+            }
+            catch (Exception ex)
+            {
+                hasChanges = ex is Microsoft.EntityFrameworkCore.DbUpdateConcurrencyException;
+                canEdit = !(ex is Microsoft.EntityFrameworkCore.DbUpdateConcurrencyException);
+                errorVisible = true;
+            }
+        }
+
+        protected async Task CancelButtonClick(MouseEventArgs args)
+        {
+            DialogService.Close(null);
+        }
+
+
+        protected bool hasChanges = false;
+        protected bool canEdit = true;
+
+        [Inject]
+        protected SecurityService Security { get; set; }
+
+
+        protected async Task ReloadButtonClick(MouseEventArgs args)
+        {
+           ConDataService.Reset();
+            hasChanges = false;
+            canEdit = true;
+
+            stock = await ConDataService.GetStockByStoreIdAndProductId(store_id, product_id);
+        }
+    }
+}
